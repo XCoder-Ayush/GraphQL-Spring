@@ -1,0 +1,13 @@
+type Query{
+
+	getCourses:[Course]
+
+}
+
+type Course{
+
+	id:Int
+	name:String
+	duration:Int
+
+}
